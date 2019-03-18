@@ -10,7 +10,7 @@ namespace VVFGeoFleet
     {
         public void Configuration(IAppBuilder app)
         {
-            app.MapSignalR<DatiPosizioneLive>("/PosizioneLive");
+            app.MapSignalR<DatiPosizioneLive>("/api/PosizioneLive");
 
         }
     }
